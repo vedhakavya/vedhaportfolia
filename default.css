@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#projects .project-container {
+  display: flex; /* Arrange projects horizontally */
+  flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
+  justify-content: space-between; /* Distribute projects evenly */
+}
+
+.project {
+  width: 30%; /* Adjust width as needed for your layout */
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Crop images to fit container */
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+}
